@@ -38,5 +38,5 @@
     }
   }
   .wrapper {
-    @apply container mx-auto pt-36 px-6 lg:px-28;
+    @apply container mx-auto py-28 px-6 lg:px-28;
   }

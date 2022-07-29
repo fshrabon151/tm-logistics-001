@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -37,6 +38,16 @@
       @apply tracking-wide text-primary;
     }
   }
-  .wrapper {
-    @apply container mx-auto py-28 px-6 lg:px-28;
+  
+  @layer components{
+    .wrapper {
+      @apply container mx-auto py-28 px-6 lg:px-28;
+    }
+    .btn-primary{
+      @apply bg-slate-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-slate-500 hover:shadow-lg focus:bg-slate-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-slate-600 active:shadow-lg transition duration-150 ease-in-out
+    }
+  }
+
+  body{
+    @apply font-poppins
   }

@@ -12,13 +12,13 @@
   <body>
     <!-- navigation start -->
     <nav
-      class="fixed w-full flex flex-wrap items-center justify-between py-4 bg-gray-100 text-gray-500 hover:text-gray-700 focus:text-gray-700 shadow-lg navbar navbar-expand-lg navbar-light"
+      class="fixed z-10 w-full flex flex-wrap items-center justify-between py-4 bg-white text-gray-500 hover:text-gray-700 focus:text-gray-700 shadow-lg navbar navbar-expand-lg navbar-light"
     >
       <div
         class="container-fluid w-full flex flex-wrap items-center justify-between px-6"
       >
         <button
-          class="navbar-toggler text-gray-500 border-0 hover:shadow-none hover:no-underline py-2 px-2.5 bg-transparent focus:outline-none focus:ring-0 focus:shadow-none focus:no-underline"
+          class="navbar-toggler text-gray-500 border-0 hover:npm -none hover:no-underline py-2 px-2.5 bg-transparent focus:outline-none focus:ring-0 focus:shadow-none focus:no-underline"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -50,12 +50,7 @@
             class="flex items-center text-gray-900 hover:text-gray-900 focus:text-gray-900 mt-2 lg:mt-0 mr-1"
             href="#"
           >
-            <img
-              src="https://mdbootstrap.com/img/logo/mdb-transaprent-noshadows.png"
-              style="height: 15px"
-              alt=""
-              loading="lazy"
-            />
+            <img src="./assets/images/logo.png" alt="logo" class="w-36" />
           </a>
           <!-- Left links -->
           <ul class="navbar-nav flex flex-col pl-0 list-style-none mr-auto">
@@ -461,9 +456,9 @@
               </p>
               <button
                 type="button"
-                class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                class="px-6 py-3 bg-slate-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-slate-500 hover:shadow-lg focus:bg-slate-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-slate-600 active:shadow-lg transition duration-150 ease-in-out"
               >
-                Button
+                Get started
               </button>
             </div>
           </div>
@@ -484,9 +479,9 @@
               </p>
               <button
                 type="button"
-                class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                class="px-6 py-3 bg-slate-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-slate-500 hover:shadow-lg focus:bg-slate-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-slate-600 active:shadow-lg transition duration-150 ease-in-out"
               >
-                Button
+                Get started
               </button>
             </div>
           </div>
@@ -508,9 +503,9 @@
               </p>
               <button
                 type="button"
-                class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                class="px-6 py-3 bg-slate-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-slate-500 hover:shadow-lg focus:bg-slate-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-slate-600 active:shadow-lg transition duration-150 ease-in-out"
               >
-                Button
+                Get started
               </button>
             </div>
           </div>
@@ -532,9 +527,9 @@
               </p>
               <button
                 type="button"
-                class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                class="px-6 py-3 bg-slate-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-slate-500 hover:shadow-lg focus:bg-slate-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-slate-600 active:shadow-lg transition duration-150 ease-in-out"
               >
-                Button
+                Get started
               </button>
             </div>
           </div>
@@ -618,68 +613,98 @@
       <!-- end -->
 
       <!-- footer start -->
-      <footer class="wrapper">
-        <div class="grid grid-cols-2 lg:grid-cols-4 gap-6">
-          <div class="flex justify-center">
-            <ul class="bg-white rounded-lg w-96 text-gray-900">
-              <li class="px-6 py-2 w-full hover:underline">
-                <a href="#">About Us</a>
-              </li>
-              <li class="px-6 py-2 w-full hover:underline">
-                <a href="#">Careers</a>
-              </li>
-              <li class="px-6 py-2 w-full hover:underline">
-                <a href="#">Insights</a>
-              </li>
-              <li class="px-6 py-2 w-full hover:underline">
-                <a href="#">News & advisories</a>
-              </li>
-            </ul>
-          </div>
+      <footer class="border-t-2">
+        <div class="wrapper space-y-16">
+          <div class="grid grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="flex justify-center">
+              <ul class="w-96 text-gray-900">
+                <li class="px-6 py-2 w-full font-normal hover:underline">
+                  <a href="#">About Us</a>
+                </li>
+                <li class="px-6 py-2 w-full font-normal hover:underline">
+                  <a href="#">Careers</a>
+                </li>
+                <li class="px-6 py-2 w-full font-normal hover:underline">
+                  <a href="#">Insights</a>
+                </li>
+                <li class="px-6 py-2 w-full font-normal hover:underline">
+                  <a href="#">News & advisories</a>
+                </li>
+              </ul>
+            </div>
 
-          <div class="flex justify-center">
-            <ul class="bg-white rounded-lg w-96 text-gray-900">
-              <li class="px-6 py-2 w-full hover:underline">
-                <a href="#">Contact Us</a>
-              </li>
-              <li class="px-6 py-2 w-full hover:underline">
-                <a href="#">Investors</a>
-              </li>
-              <li class="px-6 py-2 w-full hover:underline">
-                <a href="#">Press</a>
-              </li>
-              <li class="px-6 py-2 w-full hover:underline">
-                <a href="#">Support</a>
-              </li>
-            </ul>
-          </div>
+            <div class="flex justify-center">
+              <ul class="w-96 text-gray-900">
+                <li class="px-6 py-2 w-full font-normal hover:underline">
+                  <a href="#">Contact Us</a>
+                </li>
+                <li class="px-6 py-2 w-full font-normal hover:underline">
+                  <a href="#">Investors</a>
+                </li>
+                <li class="px-6 py-2 w-full font-normal hover:underline">
+                  <a href="#">Press</a>
+                </li>
+                <li class="px-6 py-2 w-full font-normal hover:underline">
+                  <a href="#">Support</a>
+                </li>
+              </ul>
+            </div>
 
-          <div class="flex justify-center">
-            <ul class="bg-white rounded-lg w-96 text-gray-900">
-              <li class="px-6 py-2 w-full hover:underline">
-                <a href="#">Terms & Conditions</a>
-              </li>
-              <li class="px-6 py-2 w-full hover:underline">
-                <a href="#">Brand Policy</a>
-              </li>
-              <li class="px-6 py-2 w-full hover:underline">
-                <a href="#">Cookie Policy</a>
-              </li>
-            </ul>
-          </div>
+            <div class="flex justify-center">
+              <ul class="w-96 text-gray-900">
+                <li class="px-6 py-2 w-full font-normal hover:underline">
+                  <a href="#">Terms & Conditions</a>
+                </li>
+                <li class="px-6 py-2 w-full font-normal hover:underline">
+                  <a href="#">Brand Policy</a>
+                </li>
+                <li class="px-6 py-2 w-full font-normal hover:underline">
+                  <a href="#">Cookie Policy</a>
+                </li>
+              </ul>
+            </div>
 
-          <div class="flex justify-center">
-            <ul class="bg-white rounded-lg w-96 text-gray-900">
-              <li class="px-6 py-2 w-full hover:underline">
-                <a href="#">Container sales</a>
-              </li>
-              <li class="px-6 py-2 w-full hover:underline">
-                <a href="#">Vassel schedules</a>
-              </li>
-              <li class="px-6 py-2 w-full hover:underline">
-                <a href="#">Point to point service</a>
-              </li>
-            </ul>
+            <div class="flex justify-center">
+              <ul class="w-96 text-gray-900">
+                <li class="px-6 py-2 w-full font-normal hover:underline">
+                  <a href="#">Container sales</a>
+                </li>
+                <li class="px-6 py-2 w-full font-normal hover:underline">
+                  <a href="#">Vassel schedules</a>
+                </li>
+                <li class="px-6 py-2 w-full font-normal hover:underline">
+                  <a href="#">Point to point service</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="grid md:grid-cols-4 gap-6">
+            <div class="flex flex-col space-y-5 justify-between">
+              <img src="./assets/images/logo.png" alt="logo" class="w-36" />
+              <p>&copy; A.P. Moller - Maersk</p>
+            </div>
+            <div class="social col-span-2">
+              <ul class="flex md:space-x-7 flex-col md:flex-row">
+                <li class="hover:underline"><a href="#">Linkdin</a></li>
+                <li class="hover:underline"><a href="#">Facebook</a></li>
+                <li class="hover:underline"><a href="#">Twiter</a></li>
+                <li class="hover:underline"><a href="#">Instagram</a></li>
+                <li class="hover:underline"><a href="#">YouTube</a></li>
+              </ul>
+            </div>
+            <div
+              class="store space-y-0 flex md:flex-col md:space-y-4 space-x-4 md:space-x-0"
+            >
+              <div>
+                <img src="./assets/images/apple.svg" alt="apple" />
+              </div>
+              <div>
+                <img
+                  src="./assets/images/google-play-badge-english.svg"
+                  alt="google"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </footer>

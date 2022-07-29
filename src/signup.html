@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css"
+    />
+    <link href="./assets/styles/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- navigation start -->
+    <nav
+      class="fixed z-10 w-full flex flex-wrap items-center justify-between py-4 bg-white text-gray-500 hover:text-gray-700 focus:text-gray-700 shadow-lg navbar navbar-expand-lg navbar-light"
+    >
+      <div
+        class="container-fluid w-full flex flex-wrap items-center justify-between px-6"
+      >
+        <button
+          class="navbar-toggler text-gray-500 border-0 hover:npm -none hover:no-underline py-2 px-2.5 bg-transparent focus:outline-none focus:ring-0 focus:shadow-none focus:no-underline"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fas"
+            data-icon="bars"
+            class="w-6"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 512"
+          >
+            <path
+              fill="currentColor"
+              d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
+            ></path>
+          </svg>
+        </button>
+        <div
+          class="collapse navbar-collapse flex-grow items-center"
+          id="navbarSupportedContent"
+        >
+          <a
+            class="flex items-center text-gray-900 hover:text-gray-900 focus:text-gray-900 mt-2 lg:mt-0 mr-1"
+            href="#"
+          >
+            <img src="./assets/images/logo.png" alt="logo" class="w-36" />
+          </a>
+          <!-- Left links -->
+          <ul class="navbar-nav flex flex-col pl-0 list-style-none mr-auto">
+            <li class="nav-item p-2">
+              <a
+                class="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item p-2">
+              <a
+                class="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0"
+                href="#"
+                >About</a
+              >
+            </li>
+            <li class="nav-item p-2">
+              <a
+                class="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0"
+                href="#"
+                >Services</a
+              >
+            </li>
+            <li class="nav-item p-2">
+              <a
+                class="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0"
+                href="#"
+                >Contact</a
+              >
+            </li>
+          </ul>
+          <!-- Left links -->
+        </div>
+        <!-- Collapsible wrapper -->
+
+        <!-- Right elements -->
+        <div class="flex items-center relative">
+          <!-- Icon -->
+          <a
+            class="text-gray-500 hover:text-gray-700 focus:text-gray-700 mr-4"
+            href="#"
+          >
+            <svg
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fas"
+              data-icon="shopping-cart"
+              class="w-4"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 576 512"
+            >
+              <path
+                fill="currentColor"
+                d="M528.12 301.319l47.273-208C578.806 78.301 567.391 64 551.99 64H159.208l-9.166-44.81C147.758 8.021 137.93 0 126.529 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24h69.883l70.248 343.435C147.325 417.1 136 435.222 136 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-15.674-6.447-29.835-16.824-40h209.647C430.447 426.165 424 440.326 424 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-22.172-12.888-41.332-31.579-50.405l5.517-24.276c3.413-15.018-8.002-29.319-23.403-29.319H218.117l-6.545-32h293.145c11.206 0 20.92-7.754 23.403-18.681z"
+              ></path>
+            </svg>
+          </a>
+          <div class="dropdown relative">
+            <a
+              class="text-gray-500 hover:text-gray-700 focus:text-gray-700 mr-4 dropdown-toggle hidden-arrow flex items-center"
+              href="#"
+              id="dropdownMenuButton1"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                data-prefix="fas"
+                data-icon="bell"
+                class="w-4"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"
+              >
+                <path
+                  fill="currentColor"
+                  d="M224 512c35.32 0 63.97-28.65 63.97-64H160.03c0 35.35 28.65 64 63.97 64zm215.39-149.71c-19.32-20.76-55.47-51.99-55.47-154.29 0-77.7-54.48-139.9-127.94-155.16V32c0-17.67-14.32-32-31.98-32s-31.98 14.33-31.98 32v20.84C118.56 68.1 64.08 130.3 64.08 208c0 102.3-36.15 133.53-55.47 154.29-6 6.45-8.66 14.16-8.61 21.71.11 16.4 12.98 32 32.1 32h383.8c19.12 0 32-15.6 32.1-32 .05-7.55-2.61-15.27-8.61-21.71z"
+                ></path>
+              </svg>
+              <span
+                class="text-white bg-red-700 absolute rounded-full text-xs -mt-2.5 ml-2 py-0 px-1.5"
+                >1</span
+              >
+            </a>
+            <ul
+              class="dropdown-menu min-w-max absolute hidden bg-white text-base z-50 float-left py-2 list-none text-left rounded-lg shadow-lg mt-1 hidden m-0 bg-clip-padding border-none left-auto right-0"
+              aria-labelledby="dropdownMenuButton1"
+            >
+              <li>
+                <a
+                  class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100"
+                  href="#"
+                  >Action</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100"
+                  href="#"
+                  >Another action</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100"
+                  href="#"
+                  >Something else here</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="dropdown relative">
+            <a
+              class="dropdown-toggle flex items-center hidden-arrow"
+              href="#"
+              id="dropdownMenuButton2"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <img
+                src="https://mdbootstrap.com/img/new/avatars/2.jpg"
+                class="rounded-full"
+                style="height: 25px; width: 25px"
+                alt=""
+                loading="lazy"
+              />
+            </a>
+            <ul
+              class="dropdown-menu min-w-max absolute hidden bg-white text-base z-50 float-left py-2 list-none text-left rounded-lg shadow-lg mt-1 hidden m-0 bg-clip-padding border-none left-auto right-0"
+              aria-labelledby="dropdownMenuButton2"
+            >
+              <li>
+                <a
+                  class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100"
+                  href="#"
+                  >Action</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100"
+                  href="#"
+                  >Another action</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100"
+                  href="#"
+                  >Something else here</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Right elements -->
+      </div>
+    </nav>
+    <!-- navigation end -->
+    <main class="pt-20">
+      <div
+        class="object-center bg-no-repeat bg-cover h-72"
+        style="
+          background-image: linear-gradient(#00000053, #00000053),
+            url(https://images.unsplash.com/photo-1512314889357-e157c22f938d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80);
+        "
+      >
+        <div
+          class="space-y-6 flex items-center justify-center mx-auto flex-col wrapper"
+        >
+          <h2 class="text-center text-white font-bold uppercase">Services</h2>
+          <div class="border-b-4 border-yellow-300 pb-4 w-20"></div>
+
+          <p class="text-white text-center font-semibold">
+            We provide premium services
+          </p>
+        </div>
+      </div>
+      <section>
+        <div class="px-6 h-full text-gray-800">
+          <div
+            class="flex xl:justify-center lg:justify-between justify-center items-center flex-wrap h-full g-6"
+          >
+            <div
+              class="grow-0 shrink-1 md:shrink-0 basis-auto xl:w-6/12 lg:w-6/12 md:w-9/12 mb-12 md:mb-0"
+            >
+              <img
+                src="./assets/images/login.webp"
+                class="w-full"
+                alt="Sample image"
+              />
+            </div>
+            <div class="xl:ml-20 xl:w-5/12 lg:w-5/12 md:w-8/12 mb-12 md:mb-0">
+              <form class="w-full max-w-lg space-y-6">
+                <h1>Signup</h1>
+                <div class="flex flex-wrap -mx-3 mb-6">
+                  <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                    <label
+                      class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                      for="grid-first-name"
+                    >
+                      First Name
+                    </label>
+                    <input
+                      class="appearance-none block w-full bg-gray-50 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                      id="grid-first-name"
+                      type="text"
+                      placeholder="Jane"
+                    />
+                    <p class="text-red-500 text-xs italic">
+                      Please fill out this field.
+                    </p>
+                  </div>
+                  <div class="w-full md:w-1/2 px-3">
+                    <label
+                      class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                      for="grid-last-name"
+                    >
+                      Last Name
+                    </label>
+                    <input
+                      class="appearance-none block w-full bg-gray-50 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                      id="grid-last-name"
+                      type="text"
+                      placeholder="Doe"
+                    />
+                  </div>
+                </div>
+                <div class="flex flex-wrap -mx-3 mb-6">
+                  <div class="w-full px-3">
+                    <label
+                      class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                      for="grid-password"
+                    >
+                      Password
+                    </label>
+                    <input
+                      class="appearance-none block w-full bg-gray-50 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                      id="grid-password"
+                      type="password"
+                      placeholder="******************"
+                    />
+                    <p class="text-gray-600 text-xs italic">
+                      Make it as long and as crazy as you'd like
+                    </p>
+                  </div>
+                </div>
+                <div class="flex flex-wrap -mx-3 mb-2">
+                  <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
+                    <label
+                      class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                      for="grid-city"
+                    >
+                      City
+                    </label>
+                    <input
+                      class="appearance-none block w-full bg-gray-50 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                      id="grid-city"
+                      type="text"
+                      placeholder="Albuquerque"
+                    />
+                  </div>
+                  <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
+                    <label
+                      class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                      for="grid-state"
+                    >
+                      State
+                    </label>
+                    <div class="relative">
+                      <select
+                        class="block appearance-none w-full bg-gray-50 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                        id="grid-state"
+                      >
+                        <option>New Mexico</option>
+                        <option>Missouri</option>
+                        <option>Texas</option>
+                      </select>
+                      <div
+                        class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700"
+                      >
+                        <svg
+                          class="fill-current h-4 w-4"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 20 20"
+                        >
+                          <path
+                            d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
+                    <label
+                      class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                      for="grid-zip"
+                    >
+                      Zip
+                    </label>
+                    <input
+                      class="appearance-none block w-full bg-gray-50 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                      id="grid-zip"
+                      type="text"
+                      placeholder="90210"
+                    />
+                  </div>
+                </div>
+                <button
+                  type="button"
+                  class="px-6 w-full py-4 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-slate-500 hover:shadow-lg focus:bg-slate-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-slate-600 active:shadow-lg transition duration-150 ease-in-out"
+                >
+                  Signup
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- footer start -->
+      <footer class="border-t-2">
+        <div class="wrapper space-y-16">
+          <div class="grid grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="flex justify-center">
+              <ul class="w-96 text-gray-900">
+                <li class="px-6 py-2 w-full font-normal hover:underline">
+                  <a href="#">About Us</a>
+                </li>
+                <li class="px-6 py-2 w-full font-normal hover:underline">
+                  <a href="#">Careers</a>
+                </li>
+                <li class="px-6 py-2 w-full font-normal hover:underline">
+                  <a href="#">Insights</a>
+                </li>
+                <li class="px-6 py-2 w-full font-normal hover:underline">
+                  <a href="#">News & advisories</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="flex justify-center">
+              <ul class="w-96 text-gray-900">
+                <li class="px-6 py-2 w-full font-normal hover:underline">
+                  <a href="#">Contact Us</a>
+                </li>
+                <li class="px-6 py-2 w-full font-normal hover:underline">
+                  <a href="#">Investors</a>
+                </li>
+                <li class="px-6 py-2 w-full font-normal hover:underline">
+                  <a href="#">Press</a>
+                </li>
+                <li class="px-6 py-2 w-full font-normal hover:underline">
+                  <a href="#">Support</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="flex justify-center">
+              <ul class="w-96 text-gray-900">
+                <li class="px-6 py-2 w-full font-normal hover:underline">
+                  <a href="#">Terms & Conditions</a>
+                </li>
+                <li class="px-6 py-2 w-full font-normal hover:underline">
+                  <a href="#">Brand Policy</a>
+                </li>
+                <li class="px-6 py-2 w-full font-normal hover:underline">
+                  <a href="#">Cookie Policy</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="flex justify-center">
+              <ul class="w-96 text-gray-900">
+                <li class="px-6 py-2 w-full font-normal hover:underline">
+                  <a href="#">Container sales</a>
+                </li>
+                <li class="px-6 py-2 w-full font-normal hover:underline">
+                  <a href="#">Vassel schedules</a>
+                </li>
+                <li class="px-6 py-2 w-full font-normal hover:underline">
+                  <a href="#">Point to point service</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="grid md:grid-cols-4 gap-6">
+            <div class="flex flex-col space-y-5 justify-between">
+              <img src="./assets/images/logo.png" alt="logo" class="w-36" />
+              <p>&copy; A.P. Moller - Maersk</p>
+            </div>
+            <div class="social col-span-2">
+              <ul class="flex md:space-x-7 flex-col md:flex-row">
+                <li class="hover:underline"><a href="#">Linkdin</a></li>
+                <li class="hover:underline"><a href="#">Facebook</a></li>
+                <li class="hover:underline"><a href="#">Twiter</a></li>
+                <li class="hover:underline"><a href="#">Instagram</a></li>
+                <li class="hover:underline"><a href="#">YouTube</a></li>
+              </ul>
+            </div>
+            <div
+              class="store space-y-0 flex md:flex-col md:space-y-4 space-x-4 md:space-x-0"
+            >
+              <div>
+                <img src="./assets/images/apple.svg" alt="apple" />
+              </div>
+              <div>
+                <img
+                  src="./assets/images/google-play-badge-english.svg"
+                  alt="google"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- footer end -->
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+  </body>
+</html>

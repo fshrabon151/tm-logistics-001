@@ -1205,6 +1205,10 @@ p{
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
 
+.bg-gradient-to-br{
+  background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+}
+
 .from-red-50{
   --tw-gradient-from: #fef2f2;
   --tw-gradient-to: rgb(254 242 242 / 0);
@@ -1223,12 +1227,42 @@ p{
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
+.from-red-600{
+  --tw-gradient-from: #dc2626;
+  --tw-gradient-to: rgb(220 38 38 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-red-300{
+  --tw-gradient-from: #fca5a5;
+  --tw-gradient-to: rgb(252 165 165 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-blue-300{
+  --tw-gradient-from: #93c5fd;
+  --tw-gradient-to: rgb(147 197 253 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
 .to-indigo-50{
   --tw-gradient-to: #eef2ff;
 }
 
 .to-indigo-700{
   --tw-gradient-to: #4338ca;
+}
+
+.to-red-700{
+  --tw-gradient-to: #b91c1c;
+}
+
+.to-red-800{
+  --tw-gradient-to: #991b1b;
+}
+
+.to-blue-800{
+  --tw-gradient-to: #1e40af;
 }
 
 .bg-cover{
@@ -1662,6 +1696,14 @@ body{
 
   .md\:to-indigo-700{
     --tw-gradient-to: #4338ca;
+  }
+
+  .md\:to-red-700{
+    --tw-gradient-to: #b91c1c;
+  }
+
+  .md\:to-blue-700{
+    --tw-gradient-to: #1d4ed8;
   }
 }
 

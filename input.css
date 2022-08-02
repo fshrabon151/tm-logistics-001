@@ -45,10 +45,10 @@
     }
   
     .btn-primary{
-      @apply text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 font-normal md:font-medium rounded-lg text-xs md:text-sm p-2 md:px-5 md:py-2.5 text-center mr-2
+      @apply text-white bg-gradient-to-br from-sky-600 to-sky-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 font-normal md:font-medium rounded-lg text-xs md:text-sm p-2 md:px-5 md:py-2.5 text-center mr-2
     }
     .btn-secondary{
-      @apply text-purple-600 border bg-white focus:ring-4 hover:bg-purple-100 focus:outline-none focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 hover:cursor-pointer
+      @apply text-sky-500 border bg-white focus:ring-4 hover:bg-sky-100 focus:outline-none focus:ring-sky-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 hover:cursor-pointer
     }
     .btn-transparent{
       @apply px-6 py-3 border-2 border-white text-white font-medium text-xs leading-tight uppercase rounded-full hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out hover:cursor-pointer

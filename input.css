@@ -1,60 +1,60 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-      @apply text-black font-normal;
-    }
-    h1 {
-      @apply text-4xl lg:text-5xl;
-    }
-    h2 {
-      @apply text-3xl lg:text-4xl;
-    }
-    h3 {
-      @apply text-2xl lg:text-3xl;
-    }
-    h4 {
-      @apply text-xl lg:text-2xl;
-    }
-    h5 {
-      @apply text-lg lg:text-xl;
-    }
-    h6 {
-      @apply text-base lg:text-lg;
-    }
-  
-    p {
-      @apply text-gray-800 text-sm md:text-base;
-    }
-    .sub-heading {
-      @apply tracking-wide text-primary;
-    }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply text-sky-700 font-normal;
   }
-  
-  @layer components{
-    .wrapper {
-      @apply container mx-auto py-28 px-6 lg:px-28;
-    }
-  
-    .btn-primary{
-      @apply text-white bg-gradient-to-br from-sky-600 to-sky-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 font-normal md:font-medium rounded-lg text-xs md:text-sm p-2 md:px-5 md:py-2.5 text-center mr-2
-    }
-    .btn-secondary{
-      @apply text-sky-500 border bg-white focus:ring-4 hover:bg-sky-100 focus:outline-none focus:ring-sky-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 hover:cursor-pointer
-    }
-    .btn-transparent{
-      @apply px-6 py-3 border-2 border-white text-white font-medium text-xs leading-tight uppercase rounded-full hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out hover:cursor-pointer
-    }
+  h1 {
+    @apply text-4xl lg:text-5xl;
+  }
+  h2 {
+    @apply text-3xl lg:text-4xl;
+  }
+  h3 {
+    @apply text-2xl lg:text-3xl;
+  }
+  h4 {
+    @apply text-xl lg:text-2xl;
+  }
+  h5 {
+    @apply text-lg lg:text-xl;
+  }
+  h6 {
+    @apply text-base lg:text-lg;
   }
 
-  body{
-    @apply font-poppins
+  p {
+    @apply text-gray-800 text-sm md:text-base;
   }
+  .sub-heading {
+    @apply tracking-wide text-primary;
+  }
+}
+
+@layer components {
+  .wrapper {
+    @apply container mx-auto py-28 px-6 lg:px-28;
+  }
+
+  .btn-primary {
+    @apply text-white bg-gradient-to-br from-sky-600 to-sky-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 font-normal md:font-medium rounded-lg text-xs md:text-sm p-2 md:px-5 md:py-2.5 text-center mr-2;
+  }
+  .btn-secondary {
+    @apply text-sky-500 border bg-white focus:ring-4 hover:bg-sky-100 focus:outline-none focus:ring-sky-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 hover:cursor-pointer;
+  }
+  .btn-transparent {
+    @apply px-6 py-3 border-2 border-white text-white font-medium text-xs leading-tight uppercase rounded-full hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out hover:cursor-pointer;
+  }
+}
+
+body {
+  @apply font-poppins;
+}

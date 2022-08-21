@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flowbite@1.5.1/dist/flowbite.min.css"
+    />
+
+    <link href="./assets/styles/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- navigation start -->
+    <header>
+      <nav
+        class="bg-slate-100 border-gray-200 px-4 lg:px-6 py-3 shadow-lg z-10 fixed w-full"
+      >
+        <div class="flex flex-wrap justify-between items-center mx-auto">
+          <a href="./index.html" class="flex items-center">
+            <img
+              src="./assets/images/logo.png"
+              class="mr-3 h-10"
+              alt="Flowbite Logo"
+            />
+          </a>
+          <div class="flex items-center lg:order-2">
+            <a href="./login.html" class="btn-secondary mr-2 hidden lg:block"
+              >Log in</a
+            >
+            <a href="./signup.html" class="btn-primary hidden lg:block">
+              Get started
+            </a>
+            <button
+              data-collapse-toggle="mobile-menu-2"
+              type="button"
+              class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+              aria-controls="mobile-menu-2"
+              aria-expanded="false"
+            >
+              <span class="sr-only">Open main menu</span>
+              <svg
+                class="w-6 h-6"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+              <svg
+                class="hidden w-6 h-6"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </button>
+          </div>
+          <div
+            class="hidden justify-between items-center w-full space-y-6 lg:flex lg:w-auto lg:order-1"
+            id="mobile-menu-2"
+          >
+            <ul
+              class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0"
+            >
+              <li>
+                <a
+                  href="./index.html"
+                  class="block py-2 pr-4 pl-3 text-blue-700 rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0"
+                  aria-current="page"
+                  >Home</a
+                >
+              </li>
+
+              <li>
+                <a
+                  href="./about.html"
+                  class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./booking.html"
+                  class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0"
+                  >Bookings</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./tracking.html"
+                  class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0"
+                  >Tracking</a
+                >
+              </li>
+
+              <li>
+                <a
+                  href="./contact.html"
+                  class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+            <a href="./login.html" class="btn-secondary mr-2 lg:hidden block"
+              >Log in</a
+            >
+            <a href="./signup.html" class="btn-primary lg:hidden block">
+              Get started
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- navigation end -->
+    <main class="pt-16">
+      <div
+        class="object-center bg-no-repeat bg-cover"
+        style="
+          background-image: linear-gradient(#00000053, #00000053),
+            url(https://images.unsplash.com/photo-1615840287214-7ff58936c4cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+        "
+      >
+        <div
+          class="space-y-6 flex items-center justify-center mx-auto flex-col wrapper"
+        >
+          <h2 class="text-center text-white font-bold uppercase">Contact Us</h2>
+          <div class="border-b-4 border-blue-300 pb-4 w-20"></div>
+        </div>
+      </div>
+      <div class="wrapper space-y-14">
+        <div
+          class="grid md:grid-cols-1 lg:grid-cols-2 space-y-6 lg:space-y-0 gap-16"
+        >
+          <!-- left -->
+          <div class="space-y-6 flex flex-col justify-center order-last">
+            <h2>Ocean Freight Transportation Services</h2>
+            <p>
+              Consistent, reliable sailings ensure that your ocean freight
+              shipments always reach your customers in a timely manner.
+            </p>
+
+            <div>
+              <a
+                class="px-6 py-3 btn-primary"
+                href="http://freelancing101.365.com.bd/contact"
+              >
+                Contact For More Info
+              </a>
+            </div>
+          </div>
+          <!-- right -->
+          <div>
+            <img
+              src="http://freelancing101.365.com.bd/frontend/assets/images/services/ocean.jpg"
+              alt="background-image"
+              class="shadow-xl rounded-xl object-cover w-full"
+            />
+          </div>
+        </div>
+        <div>
+          <h2>Our ocean freight services include:</h2>
+
+          <ul class="space-y-8">
+            <li>
+              <h5>Full container load (fcl):</h5>
+              <p>
+                Use fcl ocean freight shipping for valuable cargo that you
+                wouldn’t want to transport with other cargo (lcl). Fcl is also a
+                good option if you need to ship larger loads (12+ pallets)
+              </p>
+            </li>
+            <li>
+              <h5>Less than container load (lcl):</h5>
+              <p>
+                Lcl shipping means you’ll share container space with others that
+                are also shipping cargo. This can be a more cost-effective
+                option for shipping smaller loads overseas.
+              </p>
+            </li>
+            <li>
+              <h5>Reefer containers:</h5>
+              <p>
+                We can ship your goods overseas in refrigerated or
+                temperature-controlled containers to protect them from spoilage
+                and humidity. Your goods can be shipped at the ideal temperature
+                for your product, whether it’s is below freezing or moderately
+                cool.
+              </p>
+            </li>
+            <li>
+              <h5>Hazardous containers &amp; dangerous goods:</h5>
+              <p>
+                Dangerous goods include but are not limited to: pharmaceuticals,
+                explosives, gases, flammable liquids and solids, corrosive
+                substances, oxidizing substances, dry ice, lithium batteries,
+                and fuel cell engines. We are dangerous goods certified and
+                transport your hazardous goods overseas safely to their
+                destination, in compliance with u.s. and international
+                regulations.
+              </p>
+            </li>
+            <li>
+              <h5>Roll-on, roll-off (roro):</h5>
+              <p>
+                We ship any type of roll-on, roll-off cargo such as automobiles,
+                trailers, tractors, motor homes or any type of heavy machinery
+                or equipment on wheels that can easily be rolled on and off
+                ro-ro vessels for transport.
+              </p>
+            </li>
+            <li>
+              <h5>Container loading &amp; unloading:</h5>
+              <p>
+                We ensure that your containers are safely loaded and unloaded
+                from vessels and offer our ground shipping network for
+                transportation to a final destination.
+              </p>
+            </li>
+            <li>
+              <h5>Trans-loading container trucking:</h5>
+              <p>
+                We’ll help you eliminate warehousing costs and meet just-in-time
+                delivery demands with our trans-loading services. As soon as
+                your cargo arrives to the port, it can be loaded onto our trucks
+                and delivered directly to its destination.
+              </p>
+            </li>
+            <li>
+              <h5>Warehousing &amp; distribution:</h5>
+              <p>
+                We have bonded warehouse space in ports around the world and
+                several throughout the u.s. to help you manage inventory and
+                distribution.
+              </p>
+            </li>
+            <li>
+              <h5>Cargo insurance:</h5>
+              <p>
+                We provide different cargo insurance options that protect
+                against loss or damage to your cargo in transit overseas. Cargo
+                insurance is essential to ocean freight transportation and
+                protects your goods from seawater flooding, storms and acts of
+                god, vessel collision and other unforeseeable events.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- footer start -->
+      <footer
+        class="p-4 bg-gradient-to-br from-sky-50 via-white to-sky-100 lg:p-8 lg:p-10 border-t-2"
+      >
+        <div class="mx-auto max-w-screen-xl text-center">
+          <a
+            href="#"
+            class="flex justify-center items-center text-2xl font-semibold text-gray-900"
+          >
+            <img src="./assets/images/logo.png" class="w-36" alt="" />
+          </a>
+          <p class="my-6 text-gray-500">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi
+            perferendis enim atque
+          </p>
+          <ul
+            class="flex flex-wrap justify-center items-center mb-6 text-gray-900"
+          >
+            <li>
+              <a href="#" class="mr-4 hover:underline lg:mr-6">About</a>
+            </li>
+            <li>
+              <a href="#" class="mr-4 hover:underline lg:mr-6">Premium</a>
+            </li>
+            <li>
+              <a href="#" class="mr-4 hover:underline lg:mr-6">Campaigns</a>
+            </li>
+            <li>
+              <a href="#" class="mr-4 hover:underline lg:mr-6">Blog</a>
+            </li>
+            <li>
+              <a href="#" class="mr-4 hover:underline lg:mr-6"
+                >Affiliate Program</a
+              >
+            </li>
+            <li>
+              <a href="#" class="mr-4 hover:underline lg:mr-6">FAQs</a>
+            </li>
+            <li>
+              <a href="#" class="mr-4 hover:underline lg:mr-6">Contact</a>
+            </li>
+          </ul>
+          <span class="text-sm text-gray-500 sm:text-center"
+            >© 2021-2022
+            <a href="#" class="hover:underline"> MARINE - LINER</a>. All Rights
+            Reserved.</span
+          >
+        </div>
+      </footer>
+      <!-- footer end -->
+    </main>
+
+    <script src="https://unpkg.com/flowbite@1.5.1/dist/flowbite.js"></script>
+  </body>
+</html>
